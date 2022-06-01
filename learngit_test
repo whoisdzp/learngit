@@ -1,0 +1,11 @@
+Class Person{
+	private int age;
+	private String name;
+	public person(String name, int age){
+		this.name = name;
+		this.age = age;
+	}
+	public void show(){
+		System.out.println("name: " + name + "\n" + "age: " + age);
+	}
+}
