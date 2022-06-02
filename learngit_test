@@ -8,4 +8,8 @@ Class Person{
 	public void show(){
 		System.out.println("name: " + name + "\n" + "age: " + age);
 	}
+	
+	public void setName(String name){
+		this.name = name;
+	}
 }
